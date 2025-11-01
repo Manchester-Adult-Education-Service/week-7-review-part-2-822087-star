@@ -26,6 +26,11 @@ print("-------------------------------------------\n"
 # Output: 7 is odd
 #
 # Write your code below:
+num=int (input("Enter your number :-, "))
+if num % 2:
+    print ("This number is Even  :-  ", num)
+else :
+    print (" This is odd number  :- " , num)
 
 
 # -------------------------------------------
@@ -58,7 +63,27 @@ print("-------------------------------------------\n"
 # Output: Excellent!
 #
 # Write your code below:
+#### GCE AL Exam Results ~#######
+##=======================########
+index_num = int (input ("Enter your index no :---- ", ))
+Name = str (input ("Enter your full Name :-- "))
+##===subject =====
+subject_list = list[ "biology", "chemistry", "maths"]
+marks = int(input(" Enter your " ,list, "marks :- "))
+if marks<=50 :
+    print(f" your " ,list, "marks is not pass marks try next time ", marks)
+elif marks>60:
+    print(f"your  " ,list, "marks is pass marks", marks)
+    
+elif marks>= 80:
+    print (f"your " , list, "marks is merit pass congradulation", marks)
+else :
+    print("congratulation ")
 
+
+
+
+ 
 
 # -------------------------------------------
 # Submitting Your Work
